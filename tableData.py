@@ -48,3 +48,4 @@ def getTableData(driver, connection):
         i += 1
 
         driver.find_element(By.XPATH, '//*[@id="expediente:j_idt78"]/div/a').click()
+

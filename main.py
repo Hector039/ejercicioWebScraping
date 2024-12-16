@@ -15,7 +15,7 @@ def initRead(query: str = None):
 async def readAllItems():
     try:
         result = getData()
-        return {'Data': result}
+        return {'Data': result, 'deploy': 'ok'}
     except Exception as error:
         return {"message": error}
     
